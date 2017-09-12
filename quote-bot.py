@@ -4,7 +4,7 @@ import sqlite3
 import atexit
 
 client = discord.Client()
-conn = sqlite3.connect('quotes.db')
+conn = sqlite3.connect('/home/pi/DiscordQuoteBot/quotes.db')
 quotebook = None
 
 
